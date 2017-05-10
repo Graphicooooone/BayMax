@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Debug_Desc</key>
+	<string> *** For the generation of abnormal termination during the development phase, I don&apos;t suggest you modify the protection configuration here</string>
+	<key>Debug</key>
+	<dict>
+		<key>ArrayProtect</key>
+		<false/>
+		<key>DictionaryProtect</key>
+		<false/>
+		<key>SetProtect</key>
+		<false/>
+		<key>StringProtect</key>
+		<false/>
+		<key>NullPointerProtect</key>
+		<false/>
+		<key>MsgSentProtect</key>
+		<false/>
+		<key>KVOProtect</key>
+		<false/>
+	</dict>
+	<key>Release_Desc</key>
+	<string>Here, you can configure your project under the release condition of protection Settings</string>
+	<key>Release</key>
+	<dict>
+		<key>ArrayProtect</key>
+		<true/>
+		<key>DictionaryProtect</key>
+		<true/>
+		<key>SetProtect</key>
+		<true/>
+		<key>StringProtect</key>
+		<true/>
+		<key>NullPointerProtect</key>
+		<true/>
+		<key>MsgSentProtect</key>
+		<true/>
+		<key>KVOProtect</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
